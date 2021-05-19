@@ -1,5 +1,5 @@
-from api import app
-from waitress import serve
+from devices.types.switch import Switch
 
-serve(app, port=5000)
+device = Switch()
 
+device.execute("on")
