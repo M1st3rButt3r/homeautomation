@@ -35,6 +35,7 @@
 
 ### Arguments
 - `"name":string` a friendly name
+- `"type":string` the type of the device
 - `"controller_gateway":string` the IP address of the device's controller
 
 ### Response
