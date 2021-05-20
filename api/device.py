@@ -1,7 +1,7 @@
 from flask_restful import Resource, abort, reqparse
 
 
-class Device(Resource):
+class DeviceAPI(Resource):
     def get(self, identifier):
         return {"message": "not implemented"}
 
